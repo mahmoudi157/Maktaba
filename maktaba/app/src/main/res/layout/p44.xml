@@ -1,0 +1,367 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/_coordinator"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/_app_bar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="horizontal">
+			<ScrollView
+				android:id="@+id/vscroll1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+				<LinearLayout
+					android:id="@+id/linear2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+					<LinearLayout
+						android:id="@+id/linear3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#FFCCBC"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview1"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="ENGLISH MEDIUM"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/E1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview2"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Balbharti"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e2"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview3"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Mathematics"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview19"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Sulabhbharti"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e4"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview21"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Environmental Studies"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e5"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview22"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Shivchatrapati"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear6"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#FFCCBC"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview4"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="HINDI MEDIUM"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview5"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Balbharti"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h2"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview6"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Maths"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview7"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : My English Book"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h4"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview20"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Sulabhbharti"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear10"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#FFCCBC"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview8"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="MARATHI MEDIUM"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/M1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview9"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Balbharti"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m2"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview10"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Maths"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview11"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : My English Book"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m4"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview16"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Parisar Abhyas 1"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m5"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview17"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Parisar Abhyas 2"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear14"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#FFCCBC"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview13"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="URDU MEDIUM"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview12"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Sulabhbharti"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u2"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview14"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Maths"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="30dp"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview15"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : My English Book"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+				</LinearLayout>
+			</ScrollView>
+		</LinearLayout>
+	</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

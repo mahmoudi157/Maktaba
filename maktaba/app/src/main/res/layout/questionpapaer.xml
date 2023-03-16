@@ -1,0 +1,724 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/_coordinator"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/_app_bar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<com.google.android.gms.ads.AdView
+			android:id="@+id/adview1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:adSize="SMART_BANNER"
+			app:adUnitId="ca-app-pub-9839689808391285/4710653351" />
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@drawable/pack"
+			android:orientation="horizontal">
+			<ScrollView
+				android:id="@+id/vscroll1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+				<LinearLayout
+					android:id="@+id/linear2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+					<LinearLayout
+						android:id="@+id/linear3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#FFCCBC"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview2"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="HSC QUESTION PAPER"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/q20"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="vertical">
+						<LinearLayout
+							android:id="@+id/linear34"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:padding="1dp"
+							android:gravity="center_vertical"
+							android:orientation="horizontal">
+							<TextView
+								android:id="@+id/textview3"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="HSC : Year 2020"
+								android:textSize="16sp"
+								android:textStyle="bold"
+								android:textColor="#000000"
+								android:layout_weight="1" />
+							<ImageView
+								android:id="@+id/imageview1"
+								android:layout_width="50dp"
+								android:layout_height="30dp"
+								android:layout_marginRight="20dp"
+								android:src="@drawable/ic_expand_more_black"
+								android:scaleType="center" />
+							<ImageView
+								android:id="@+id/imageview4"
+								android:layout_width="50dp"
+								android:layout_height="wrap_content"
+								android:layout_marginRight="20dp"
+								android:src="@drawable/ic_expand_less_black"
+								android:scaleType="center" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear11"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginBottom="10dp"
+							android:padding="8dp"
+							android:orientation="vertical">
+							<LinearLayout
+								android:id="@+id/linear18"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:gravity="center_horizontal|center_vertical"
+								android:orientation="horizontal">
+								<Button
+									android:id="@+id/Hmath20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Maths"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/Hphy20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_marginRight="5dp"
+									android:padding="8dp"
+									android:text="Physics"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/Hchem20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Chemistry"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/Hbiolog20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:padding="8dp"
+									android:text="Biology"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear19"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:gravity="center_horizontal|center_vertical"
+								android:orientation="horizontal">
+								<Button
+									android:id="@+id/Henglish20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="English"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/Hmar20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Francais"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/Hhindi20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Arabic"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/q19"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="vertical">
+						<LinearLayout
+							android:id="@+id/linear35"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:padding="1dp"
+							android:gravity="center_vertical"
+							android:orientation="horizontal">
+							<TextView
+								android:id="@+id/textview4"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="HSC : Year 2019"
+								android:textSize="16sp"
+								android:textStyle="bold"
+								android:textColor="#000000"
+								android:layout_weight="1" />
+							<ImageView
+								android:id="@+id/imageview2"
+								android:layout_width="50dp"
+								android:layout_height="wrap_content"
+								android:layout_marginRight="20dp"
+								android:src="@drawable/ic_expand_more_black"
+								android:scaleType="center" />
+							<ImageView
+								android:id="@+id/imageview5"
+								android:layout_width="50dp"
+								android:layout_height="wrap_content"
+								android:layout_marginRight="20dp"
+								android:src="@drawable/ic_expand_less_black"
+								android:scaleType="center" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear20"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginBottom="10dp"
+							android:padding="8dp"
+							android:orientation="vertical">
+							<LinearLayout
+								android:id="@+id/linear21"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:gravity="center_horizontal|center_vertical"
+								android:orientation="horizontal">
+								<Button
+									android:id="@+id/Hmaths19"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Maths"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/Hphys19"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_marginRight="5dp"
+									android:padding="8dp"
+									android:text="Physics"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/Hchem19"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Chemistry"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/Hbiol19"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:padding="8dp"
+									android:text="Biology"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/q18"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="vertical">
+						<LinearLayout
+							android:id="@+id/linear36"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:padding="1dp"
+							android:gravity="center_vertical"
+							android:orientation="horizontal">
+							<TextView
+								android:id="@+id/textview5"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="HSC : Year 2018"
+								android:textSize="16sp"
+								android:textStyle="bold"
+								android:textColor="#000000"
+								android:layout_weight="1" />
+							<ImageView
+								android:id="@+id/imageview3"
+								android:layout_width="50dp"
+								android:layout_height="wrap_content"
+								android:layout_marginRight="20dp"
+								android:src="@drawable/ic_expand_more_black"
+								android:scaleType="center" />
+							<ImageView
+								android:id="@+id/imageview6"
+								android:layout_width="50dp"
+								android:layout_height="wrap_content"
+								android:layout_marginRight="20dp"
+								android:src="@drawable/ic_expand_less_black"
+								android:scaleType="center" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear23"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginBottom="10dp"
+							android:padding="8dp"
+							android:orientation="vertical">
+							<LinearLayout
+								android:id="@+id/linear24"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:gravity="center_horizontal|center_vertical"
+								android:orientation="horizontal">
+								<Button
+									android:id="@+id/Hmaths18"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Maths"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/Hphy18"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_marginRight="5dp"
+									android:padding="8dp"
+									android:text="Physics"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/Hchem18"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Chemistry"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/Hbio18"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:padding="8dp"
+									android:text="Biology"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear10"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#FFCCBC"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview9"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="SSC QUESTION PAPER"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/qp20"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="vertical">
+						<LinearLayout
+							android:id="@+id/linear37"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:gravity="center_vertical"
+							android:orientation="horizontal">
+							<TextView
+								android:id="@+id/textview10"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="SSC : Year 2020"
+								android:textSize="16sp"
+								android:textStyle="bold"
+								android:textColor="#000000"
+								android:layout_weight="1" />
+							<ImageView
+								android:id="@+id/imageview7"
+								android:layout_width="50dp"
+								android:layout_height="wrap_content"
+								android:layout_marginRight="20dp"
+								android:src="@drawable/ic_expand_more_black"
+								android:scaleType="center" />
+							<ImageView
+								android:id="@+id/imageview8"
+								android:layout_width="50dp"
+								android:layout_height="wrap_content"
+								android:layout_marginRight="20dp"
+								android:src="@drawable/ic_expand_less_black"
+								android:scaleType="center" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear26"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginBottom="10dp"
+							android:padding="8dp"
+							android:orientation="vertical">
+							<LinearLayout
+								android:id="@+id/linear27"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:gravity="center_horizontal|center_vertical"
+								android:orientation="horizontal">
+								<Button
+									android:id="@+id/eng20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="English"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/hincomp20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_marginRight="5dp"
+									android:padding="8dp"
+									android:text="Arabic Comp. "
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/hindent20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Arabic Entire"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/marat20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_marginRight="5dp"
+									android:padding="8dp"
+									android:text="Francias"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear28"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:gravity="center_horizontal|center_vertical"
+								android:orientation="horizontal">
+								<Button
+									android:id="@+id/maths20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Maths 1"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/maths2n20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_marginRight="5dp"
+									android:padding="8dp"
+									android:text="Maths 2"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/sanscom20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Sanskrit Comp"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/sankent20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_marginRight="5dp"
+									android:padding="8dp"
+									android:text="Sanskrit Entire"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear29"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:gravity="center_horizontal|center_vertical"
+								android:orientation="horizontal">
+								<Button
+									android:id="@+id/sci1n20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_marginRight="5dp"
+									android:padding="8dp"
+									android:text="Science 1"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/sci2n20"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Science 2"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/qp19"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="vertical">
+						<LinearLayout
+							android:id="@+id/linear38"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:gravity="center_vertical"
+							android:orientation="horizontal">
+							<TextView
+								android:id="@+id/textview11"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="SSC : Year 2019"
+								android:textSize="16sp"
+								android:textStyle="bold"
+								android:textColor="#000000"
+								android:layout_weight="1" />
+							<ImageView
+								android:id="@+id/imageview9"
+								android:layout_width="50dp"
+								android:layout_height="wrap_content"
+								android:layout_marginRight="20dp"
+								android:src="@drawable/ic_expand_more_black"
+								android:scaleType="center" />
+							<ImageView
+								android:id="@+id/imageview10"
+								android:layout_width="50dp"
+								android:layout_height="wrap_content"
+								android:layout_marginRight="20dp"
+								android:src="@drawable/ic_expand_less_black"
+								android:scaleType="center" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear30"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginBottom="10dp"
+							android:padding="8dp"
+							android:orientation="vertical">
+							<LinearLayout
+								android:id="@+id/linear31"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:gravity="center_horizontal|center_vertical"
+								android:orientation="horizontal">
+								<Button
+									android:id="@+id/button1"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="English"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/button2"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_marginRight="5dp"
+									android:padding="8dp"
+									android:text="Geography"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/button3"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Arabic Comp"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/button4"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_marginRight="5dp"
+									android:padding="8dp"
+									android:text="Hindi Entire"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear32"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:gravity="center_horizontal|center_vertical"
+								android:orientation="horizontal">
+								<Button
+									android:id="@+id/button5"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="History &amp; pol. sci."
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/button6"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_marginRight="5dp"
+									android:padding="8dp"
+									android:text="Francais "
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/button7"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Maths 1"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/button8"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_marginRight="5dp"
+									android:padding="8dp"
+									android:text="Maths 2"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+							</LinearLayout>
+							<LinearLayout
+								android:id="@+id/linear33"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:gravity="center_horizontal|center_vertical"
+								android:orientation="horizontal">
+								<Button
+									android:id="@+id/button9"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Sanskrit Comp"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/button10"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_marginRight="5dp"
+									android:padding="8dp"
+									android:text="Sanskrit Entire"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/button11"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Science 1"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+								<Button
+									android:id="@+id/button12"
+									android:layout_width="70dp"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_marginRight="5dp"
+									android:padding="8dp"
+									android:text="Science 2"
+									android:textSize="12sp"
+									android:textColor="#000000" />
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+			</ScrollView>
+		</LinearLayout>
+	</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

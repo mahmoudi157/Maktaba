@@ -1,0 +1,1183 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/_coordinator"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/_app_bar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<com.google.android.gms.ads.AdView
+			android:id="@+id/adview1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:adSize="SMART_BANNER"
+			app:adUnitId="ca-app-pub-9839689808391285/4710653351" />
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="horizontal">
+			<ScrollView
+				android:id="@+id/vscroll1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+				<LinearLayout
+					android:id="@+id/linear2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+					<LinearLayout
+						android:id="@+id/linear3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#FFCCBC"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview1"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="ENGLISH MEDIUM"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview2"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Kumarbharti"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e2"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview3"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Sciences and Technology 1"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview19"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Sciences and Technology 2"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e4"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview21"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Sanskrutam Amodh Sampurn"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e5"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview31"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Garavi sampurn Gujarati"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e6"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview32"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Aksharbharti"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e7"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview33"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Sahityabharti Sanyukt gujrati"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e8"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview34"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Sanskrutam Anand sanyukt"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e9"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview35"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Mathematics 1"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e10"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview36"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Mathematics 2"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e11"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview22"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : History and political science"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e12"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview37"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Defense Studies"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e13"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview48"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Geography"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e14"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview47"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Lokbharti Hindi"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e15"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview49"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Tarufe Urdu"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e16"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview46"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Bag A Urdu"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e17"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview50"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Sugambharti Kannada"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e18"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview51"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Saralbharti Telugu"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e19"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview75"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Swa-vikas Kalarswad"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e20"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview76"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Sindhubharti Sindhi Arabic"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/e21"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview77"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="English : Sindhubharti Sindhi Devnagari"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear6"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#FFCCBC"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview4"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="HINDI MEDIUM"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview5"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Kumarbharti"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h2"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview6"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Viggyan aur Praudyogiki 1"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview7"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Viggyan aur Praudyogiki 2"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h4"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview20"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : My English Coursebook"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h5"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview23"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Maths 1"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h6"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview41"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Maths 2"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h7"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview24"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Itihas Va Ranjeeti Viggyan"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h8"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview52"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Bhugol"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h9"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview53"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Sanskrutam Amodh Sampurn"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h10"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview54"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Sanskrutam Anand sanyukt"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h11"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview55"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Aksharbharti"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h12"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview57"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Sahityabharti Sanyukt"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h13"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview56"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Garavi Sampurn Gujarati"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h14"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview70"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Sanrakshan Karyapustika"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h15"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview71"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Saralbharti Telugu"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h16"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview72"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Swa-vikas kalarswad"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h17"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview73"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Sindhubharti Sindhi Arabic"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/h18"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview74"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Hindi : Sindhubharti Sindhi Devnagari"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear10"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#FFCCBC"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview8"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="MARATHI MEDIUM"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview9"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Kumarbharti"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m2"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview10"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Maths 1"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview11"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Maths 2"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m4"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview16"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi :  Vidhnyan aani Tantradhnyan 1"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m5"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview17"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Vidhnyan aani Tantradhnyan 2"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m6"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview25"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Itihas va Rajyashastra"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m7"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview40"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Sanrakshanshastra"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m8"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview26"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Bhugol"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m9"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview39"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : My English Coursebook"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m10"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview58"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Sanskrutam Anand Sanyukt"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m11"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview59"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Sanskrutam Amodh Sampurn"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m12"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview60"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Sahityabharti Gujrati Sanyukt"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m13"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview61"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Garavi Sampurn Gujarati"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m14"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview62"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi :  Lokbharti Hindi"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m15"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview63"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Saralbharti Telugu"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m16"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview64"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Swa-vikas kalarswad"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m17"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview66"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Sindhubharti Sindhi Arabic"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/m18"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview69"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Marathi : Sindhubharti Sindhi Devnagari"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear14"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#FFCCBC"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview13"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="URDU MEDIUM"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview12"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Kumarbharti"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u2"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview14"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : My English Coursebook"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview15"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Science and Technology 1"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u4"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview27"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Science and technology 2"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u5"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview28"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Sanrakshanshastra karyapustika"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u6"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview29"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Mathematics 1"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u7"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview44"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Mathematics 2"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u0"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview79"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Itihas Va Rajyashastra"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u8"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview43"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Bhugol (Geography) "
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u9"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview45"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Aantarbharti"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u10"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview67"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Lokwani"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u11"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview68"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Swa-vikas va Kalarswad"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u12"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview78"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Sindhubharti Sindhi Arabic"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/u13"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="20dp"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview30"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Urdu : Sindhubharti Sindhi Devnagari"
+							android:textSize="16sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+				</LinearLayout>
+			</ScrollView>
+		</LinearLayout>
+	</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
